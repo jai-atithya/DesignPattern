@@ -14,7 +14,6 @@ Each pattern is implemented on a dedicated branch for clarity and easy navigatio
 - [Structural Design Patterns (7)](#structural-design-patterns-7)
 - [Behavioural Design Patterns (11)](#behavioural-design-patterns-11)
 - [Viewing the Design Patterns](#viewing-the-design-patterns)
-- [Author](#author)
 
 ---
 
@@ -94,15 +93,37 @@ To explore a pattern:
 
 ## Cloning a Specific Pattern
 
-If you want to work with **only one design pattern** branch, you can clone it directly using:
+You have two ways to work with a specific design pattern branch:
+
+### Method 1: Clone only the branch you need
 
 ```bash
 git clone --branch [branchname] https://github.com/jai-atithya/DesignPattern.git --single-branch
 ```
 
-**Note:** This repository is **currently under construction.**  
-Not all patterns may be available at this time.  
-If the pattern you're looking for is missing, please check back later.
+Replace [branchname] with the name of the pattern branch you want to access.
+
+Example: To clone the Builder pattern branch:
+```bash
+git clone --branch creational/builderPattern https://github.com/jai-atithya/DesignPattern.git --single-branch
+```
+
+This will download only that branch, keeping your local repository clean and focused.
+
+---
+
+### Method 2: Clone the whole repository and checkout the branch
+```bash
+git clone https://github.com/jai-atithya/DesignPattern.git
+```
+```bash
+cd DesignPattern
+```
+```bash
+git checkout [branchname]
+```
+Replace [branchname] with the name of the branch you want to switch to.
+This method downloads the entire repository first, and then lets you switch to the desired branch.
 
 ---
 
