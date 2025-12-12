@@ -92,6 +92,14 @@ To explore a pattern:
 2. Select the branch named after the design pattern.  
 3. Review the implementation and explanation contained within that branch.
 
+## Cloning a Specific Pattern
+
+If you want to work with **only one design pattern** branch, you can clone it directly using:
+
+```bash
+git clone --branch [branchname] https://github.com/jai-atithya/DesignPattern.git --single-branch
+```
+
 **Note:** This repository is **currently under construction.**  
 Not all patterns may be available at this time.  
 If the pattern you're looking for is missing, please check back later.
