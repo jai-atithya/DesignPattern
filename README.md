@@ -12,8 +12,8 @@ It separates the construction of an object from its representation, allowing the
 ## Table of Contents
 
 - [Without Builder](#without-builder)
-- [With Builder - Separate Class](#with-builder-separate)
-- [With Builder - Inner Class](#with-builder-inner)
+- [With Builder - Separate](#with-builder---separate)
+- [With Builder - Inner](#with-builder---inner)
 - [With Builder and Director](#with-builder-and-director)
 
 ---
