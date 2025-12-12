@@ -98,11 +98,8 @@ If the pattern you're looking for is missing, please check back later.
 
 ---
 
-## Author
-
-Created by **Jai Atithya A**
-Thank you for visiting this repository.
-If you find it helpful, consider starring it on GitHub.
+Thank you for visiting this repository.  
+If you find it helpful, consider starring it on GitHub.  
 Peace ✌️
 
 ---
